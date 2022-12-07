@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import FromEx from './Components/FromEx';
+//import Home1 from './Project1/Home1';
+/*import Home from './Project1/Home';
+import Contact from './Project1/Contact';
+import About from './Project1/About';
+import Navbar from './Project1/Navbar';
+import { BrowserRouter,Routes, Route } from "react-router-dom";*/
+//import Counter from './HOC/Counter';
+//import Hovercount from './HOC/Hovercount';
 function App() {
-  return (
+ return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <FromEx/>
     </div>
-  );
+  
+  )
 }
 
 export default App;
