@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import FromEx from './Components/FromEx';
 //import HookEx from './Components/HookEx';
 //import FromEx from './Components/FromEx';
 
@@ -9,7 +10,7 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <App />
+    <App/>
  </>
 );
 

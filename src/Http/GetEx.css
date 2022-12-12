@@ -1,0 +1,17 @@
+table,th,td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+   margin-left: 27%;
+   
+}
+th{
+    padding: 10px; 
+    padding-left: 30px;
+    padding-right: 30px;
+}
+div{
+    text-align: center;
+    background-color: chartreuse;
+    margin-top: 0%;
+}
